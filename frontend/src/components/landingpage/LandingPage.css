@@ -1,0 +1,90 @@
+/* src/pages/LandingPage.css */
+.landing-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10%;
+  background-color: #f0f0f0;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder-image {
+  width: 300px;
+  height: 200px;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.benefits,
+.pricing,
+.testimonials {
+  padding: 50px 10%;
+}
+
+.benefit-items,
+.pricing-plans,
+.testimonial-items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.benefit-item,
+.pricing-plan,
+.testimonial-item {
+  flex: 1;
+  margin: 0 15px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-plan {
+  text-align: center;
+}
+
+.pricing-plan ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pricing-plan button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.testimonial-author {
+  font-style: italic;
+  text-align: right;
+}
